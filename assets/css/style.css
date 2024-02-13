@@ -45,12 +45,25 @@ p{
 
     position: relative;
 }
-.barinfo-container{
 
+.barinfo {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.generalinfo-container{
+.map-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 
+.map-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
 }
 /*page headers*/
 .page-header{
