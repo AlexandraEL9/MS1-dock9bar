@@ -1,3 +1,48 @@
 body{
    font-family: 'Roboto', sans-serif; 
 }
+.nameTagline-container{
+    height: 100vh;
+
+  background: url('../images/bar main.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+
+.ethos-container{
+
+}
+
+.imagesplit-container{
+
+}
+.barinfo-container{
+
+}
+
+.generalinfo-container{
+
+}
+
+/*jumbotron*/
+.jumbotron{
+    margin-top: 100px;
+    background-color: transparent;
+}
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron-tagline{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
