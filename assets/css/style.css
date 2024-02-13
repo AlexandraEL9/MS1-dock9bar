@@ -1,6 +1,9 @@
 body{
    font-family: 'Roboto', sans-serif; 
 }
+p{
+    text-align: center;
+}
 .container-wrapper{
 
 }
@@ -30,6 +33,12 @@ body{
 .ethos-container{
 
 }
+.ethos-container-text{
+    margin: 25px;
+    
+    text-align: center;
+    background-color: antiquewhite;
+}
 
 .imagesplit-container{
 
@@ -43,12 +52,13 @@ body{
 }
 /*page headers*/
 .page-header{
-    margin-bottom: 0;
+    margin-top: 5px;
     border-bottom: 0;
     text-align: center;
 }
 .page-header h2{
-    margin-top: 0;
+    margin-top: 5px;
+    border-bottom: 0;
 }
 
 /*block-divider*/
@@ -56,10 +66,10 @@ body{
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #444;
+    background-color: #ff3df9;
 }
 /*content-containers*/
-.content-container{
+/*.content-container{
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -79,7 +89,7 @@ body{
     z-index: 1;
 }
 .navbar-bar-name{
-    color: #fff;
+    color: #ff3df9;
     font-weight: bolder;
     font-size: x-large; 
 }
