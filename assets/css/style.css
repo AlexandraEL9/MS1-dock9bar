@@ -3,6 +3,7 @@ body{
 }
 p{
     text-align: center;
+    padding: 25px;
 }
 .container-wrapper{
 
@@ -27,17 +28,6 @@ p{
   display: flex;
   align-items: center;
   justify-content: left;
-
-}
-
-.ethos-container{
-
-}
-.ethos-container-text{
-    margin: 25px;
-    
-    text-align: center;
-    background-color: antiquewhite;
 }
 
 .imagesplit-container{
@@ -111,4 +101,12 @@ p{
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
+}
+/*icons*/
+.barinfo i{
+    margin-bottom: 20px;
+    font-size:35px;
+    line-height: 35px;
+    display: block;
+
 }
