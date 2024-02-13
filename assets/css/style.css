@@ -133,5 +133,33 @@ p{
     font-size:35px;
     line-height: 35px;
     display: block;
+}
+/*footer*/
+footer {
+    background-color: rgba(0, 0, 0);
+    padding: 10px;
+}
 
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links .list-inline-item {
+    margin-right: 10px;
+}
+
+.social-links .list-inline-item:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 32px;
+    color: #ff3df9;
+    margin: 15px;
+}
+
+.social-links a:hover {
+    color: cadetblue;
 }
