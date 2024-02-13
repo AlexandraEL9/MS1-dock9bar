@@ -30,8 +30,20 @@ p{
   justify-content: left;
 }
 
-.imagesplit-container{
+.secondary-image-container{
+    height: 20vh;
 
+    background: url('../images/bartaps.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 .barinfo-container{
 
