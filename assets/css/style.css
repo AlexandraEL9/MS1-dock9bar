@@ -175,5 +175,5 @@ footer {
 }
 .carousel-item img {
     object-fit: cover; /* Ensure images cover the entire carousel item */
-    max-height: 400px; /* Adjust the max-height as needed */
+    max-height:500px; /* Adjust the max-height as needed */
 }
