@@ -114,17 +114,19 @@ p{
 
 /*jumbotron*/
 .jumbotron{
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: transparent;
 }
 .jumbotron-header{
     color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    font-size: xx-large;
+    margin-bottom: 50px;
 }
 .jumbotron-tagline{
     color: white;
     font-weight: bold;
+    font-size: x-large;
     margin-bottom: 20px;
 }
 /*icons*/
