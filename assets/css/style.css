@@ -166,20 +166,14 @@ footer {
     color: cadetblue;
 }
 /*Gallery Page*/
-.gallery {
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.carousel-container {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
 }
-.gallery-image-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-    margin-top: 10px;
+.carousel-inner {
+    max-height: 600px; /* Adjust the max-height as needed */
 }
-.gallery-image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: inherit;
+.carousel-item img {
+    object-fit: cover; /* Ensure images cover the entire carousel item */
+    max-height: 400px; /* Adjust the max-height as needed */
 }

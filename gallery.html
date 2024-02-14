@@ -44,73 +44,35 @@
     <!--Gallery main body-->
     <main>
         <div class="container-wrapper--light">
-        <div class="container-fluid gallery">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/goodtimes.jpg" alt="A neon sign saying Good Times" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/nophotos.jpg" alt="A man holding his hand up to the camera to stop his photo being taken" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/guydrinking.jpg" alt="A man drinking up close" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/bwbartender.jpg" alt="A black and white image of a bartender pouring a beer" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/barint.jpg" alt="An interior shot of a bar" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/girlsanddrinks.jpg" alt="Two girls drinking and laughing" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/beerpour.jpg" alt="A close up of draught beer being poured" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/groupcheers.jpg" alt="A group of happy people saying cheers" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/buzzynight.jpg" alt="A bar on a busy night" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/dancepurple.jpg" alt="A person dancing infront of a purple light" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/beerflight.jpg" alt="A beer flight with different beers on a wooden tray" class="img-fluid">
-                </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="gallery-image-container">
-                    <img src="assets/images/outsidecustomers.jpg" alt="People enjoying a drink and chat outside" class="img-fluid">
-                </div>
+            <div class="carousel-container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/goodtimes.jpg" alt="Neon sign saying good times">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/nophotos.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/guydrinking.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-
         </div>
-        </div>
-
     </main>
     <footer class="container-fluid">
         <div class="row">
@@ -136,12 +98,10 @@
                     </li>
                 </ul>
             </div>  
-        </div>
-           
+        </div>    
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-
 </html>
