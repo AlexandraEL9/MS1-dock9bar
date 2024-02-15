@@ -1,21 +1,99 @@
-body{
-   font-family: 'Roboto', sans-serif; 
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
 }
-p{
+
+p {
     text-align: center;
     padding: 25px;
 }
-.container-wrapper{
 
-}
+/* Container Wrappers */
 .container-wrapper--light{
     background-color: cadetblue;
     color: antiquewhite;
 }
-.container-wrapper--dark{
+.container-wrapper--dark {
     background-color: #1D3833;
     color: antiquewhite;
 }
+/*page headers*/
+.page-header{
+    margin-top: 5px;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2{
+    margin-top: 5px;
+    border-bottom: 0;
+}
+/*block-divider*/
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #ff3df9;
+}
+/* Navbar */
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    z-index: 1;
+}
+
+.navbar-bar-name {
+    color: #ff3df9;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    color: #fff;
+    margin: o 10px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links .list-inline-item {
+    margin-right: 10px;
+}
+
+.social-links .list-inline-item:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 36px;
+    color: #ff3df9;
+    margin: 15px;
+}
+
+.social-links a:hover {
+    color: cadetblue;
+}
+
+/* index.html */
 .nameTagline-container{
     height: 100vh;
 
@@ -29,7 +107,6 @@ p{
   align-items: center;
   justify-content: left;
 }
-
 .secondary-image-container{
     height: 20vh;
 
@@ -45,7 +122,24 @@ p{
 
     position: relative;
 }
-
+/*jumbotron*/
+.jumbotron{
+    margin-top: 200px;
+    background-color: transparent;
+}
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+.jumbotron-tagline{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+/*barinfo*/
 .barinfo {
     padding: 20px;
     border-radius: 5px;
@@ -65,70 +159,7 @@ p{
     display: block;
     border-radius: inherit;
 }
-/*page headers*/
-.page-header{
-    margin-top: 5px;
-    border-bottom: 0;
-    text-align: center;
-}
-.page-header h2{
-    margin-top: 5px;
-    border-bottom: 0;
-}
 
-/*block-divider*/
-.block-divider{
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #ff3df9;
-}
-/*content-containers*/
-/*.content-container{
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-/*navbar*/
-.nav-container{
-   position: absolute; 
-   top: 0;
-   left: 0;
-   padding-left: 0;
-   padding-right: 0;
-}
-.navbar{
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0);
-    z-index: 1;
-}
-.navbar-bar-name{
-    color: #ff3df9;
-    font-weight: bolder;
-    font-size: x-large; 
-}
-.navbar .navbar-nav a{
-    font-weight: bold;
-}
-
-/*jumbotron*/
-.jumbotron{
-    margin-top: 200px;
-    background-color: transparent;
-}
-.jumbotron-header{
-    color: white;
-    font-weight: bold;
-    font-size: xx-large;
-    margin-bottom: 50px;
-}
-.jumbotron-tagline{
-    color: white;
-    font-weight: bold;
-    font-size: x-large;
-    margin-bottom: 20px;
-}
 /*icons*/
 .barinfo i{
     margin-bottom: 20px;
@@ -136,44 +167,19 @@ p{
     line-height: 35px;
     display: block;
 }
-/*footer*/
-footer {
-    background-color: rgba(0, 0, 0);
-    padding: 10px;
-}
 
-.social-links {
-    display: flex;
-    justify-content: center;
-}
-
-.social-links .list-inline-item {
-    margin-right: 10px;
-}
-
-.social-links .list-inline-item:last-child {
-    margin-right: 0;
-}
-
-.social-links a {
-    display: inline-block;
-    font-size: 32px;
-    color: #ff3df9;
-    margin: 15px;
-}
-
-.social-links a:hover {
-    color: cadetblue;
-}
-/*Gallery Page*/
+/* Gallery Page */
 .carousel-container {
-    max-width: 600px; /* Adjust the max-width as needed */
-    margin: 0 auto; /* Center the carousel horizontally */
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 .carousel-inner {
-    max-height: 600px; /* Adjust the max-height as needed */
+    max-height: 600px;
+    overflow: hidden;
 }
+
 .carousel-item img {
-    object-fit: cover; /* Ensure images cover the entire carousel item */
-    max-height:500px; /* Adjust the max-height as needed */
+    object-fit: cover;
+    max-height: 500px;
 }
