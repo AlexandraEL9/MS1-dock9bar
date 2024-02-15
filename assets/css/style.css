@@ -209,3 +209,8 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #ff3df9;
 }
+.button-send-message:hover{
+    background-color: #1D3833;;
+}
+
+/*Menus Page*/
