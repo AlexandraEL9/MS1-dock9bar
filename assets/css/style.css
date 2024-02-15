@@ -183,4 +183,10 @@ footer {
     object-fit: cover;
     max-height: 500px;
 }
+.gallery-header i{
+    margin-bottom: 20px;
+    font-size:35px;
+    line-height: 35px;
+    display: block;
+}
 /*Contact Page*/
