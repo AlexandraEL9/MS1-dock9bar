@@ -219,7 +219,7 @@ button[type="submit"] {
      
 }
 .menu-card{
-    margin: 30px;
+    margin: 30px;   
 }
 .card-body{
     font-family: 'Roboto', sans-serif;
@@ -228,17 +228,18 @@ button[type="submit"] {
     color: black;
     font-weight: bolder;
 }
-hr{
-    background-color: #ff3df9;
-}
 .card-text{
     color: #1D3833;
 }
 .btn{
-    background-color: #ff3df9;
-    color: #1D3833;
+    background-color: #1D3833;
+    border-color: #ff3df9;
+    border-width: medium;
+    color: antiquewhite;
 }
 .btn:hover{
-    background-color: #1D3833;
-    color: antiquewhite;
+    background-color: cadetblue;
+    border-color: #ff3df9;
+    border-width: medium;
+    color: #1D3833;
 }
