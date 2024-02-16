@@ -196,7 +196,7 @@ footer {
     object-fit: cover;
     max-height: 500px;
 }
- }
+
 /*Contact Page*/
 .center-form {
     padding-top: 10px;
@@ -215,3 +215,30 @@ button[type="submit"] {
 }
 
 /*Menus Page*/
+.container-menu-cards{
+     
+}
+.menu-card{
+    margin: 30px;
+}
+.card-body{
+    font-family: 'Roboto', sans-serif;
+}
+.card-title{
+    color: black;
+    font-weight: bolder;
+}
+hr{
+    background-color: #ff3df9;
+}
+.card-text{
+    color: #1D3833;
+}
+.btn{
+    background-color: #ff3df9;
+    color: #1D3833;
+}
+.btn:hover{
+    background-color: #1D3833;
+    color: antiquewhite;
+}
