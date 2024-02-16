@@ -27,6 +27,20 @@ p {
     margin-top: 5px;
     border-bottom: 0;
 }
+.subpage-header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+.subpage-header i{
+    margin-bottom: 20px;
+    font-size:35px;
+    line-height: 35px;
+    display: block;
+
+}
 /*block-divider*/
 .block-divider{
     width: 75px;
@@ -62,6 +76,7 @@ p {
     color: #fff;
     margin: o 10px;
 }
+
 
 /* Footer */
 footer {
@@ -183,20 +198,8 @@ footer {
     object-fit: cover;
     max-height: 500px;
 }
-.gallery-header i{
-    margin-bottom: 20px;
-    font-size:35px;
-    line-height: 35px;
-    display: block;
-}
+ }
 /*Contact Page*/
-.contact-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
