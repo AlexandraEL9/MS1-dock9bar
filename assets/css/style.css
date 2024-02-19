@@ -21,9 +21,13 @@ p {
 .btn:hover{
     background-color: #1D3833;
 }
+i{
+    color: #ff3df9;
+    text-align: center;
+
+}
 
 /* Container Wrappers */
-
 .container-wrapper--light{
     background-color: cadetblue;
     color: antiquewhite;
@@ -40,6 +44,7 @@ p {
     margin-top: 5px;
     border-bottom: 0;
     text-align: center;
+    justify-content: center;
 }
 
 .subpage-header i{
@@ -47,6 +52,8 @@ p {
     font-size:35px;
     line-height: 35px;
     display: block;
+    background-color: #ff3df9;
+
 }
 
 /*block-divider*/
@@ -168,6 +175,9 @@ footer {
     padding: 20px;
     
 }
+h3{
+    text-align: center;
+}
 .address{
     
 }
@@ -210,12 +220,7 @@ footer {
     max-height: 500px;
 }
 
-/*Contact Page*/
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
+
 
 
 /*contact Page*/
