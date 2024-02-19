@@ -226,6 +226,19 @@ footer {
 
 
 /*contact Page*/
+.center-form{
+    text-align: center;
+}
+.form-control{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ff3df9;
+    border-radius: 5px;
+}
+textarea.form-control{
+    resize: vertical;
+}
 /*contactResponse Page*/
 .container-wrapper--light{
 
