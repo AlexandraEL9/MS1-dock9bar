@@ -54,13 +54,13 @@
                             <h5 class="uppercase text-center">Drop us a message and we'll get back to you!</h5>
         <!--Contact main body FORM-->
                             <div class="center-form">
-                                <form id="contactForm" action="your-action-url" method="post" onsubmit="return confirm( 'Confirm submission?');">
+                                <form id="contactForm" action="/contactresponse.html" method="post" onsubmit="return confirmSubmission();">
                                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
                                     <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
                                     <div class="form-row text-center">
                                         <div class="col">
-                                            <button type="submit" class="btn btn-secondary button-send-message">Send Message</button>
+                                            <a href="/contactresponse.html" class="btn btn-secondary button-send-message">Send Message</a>
                                         </div>
                                     </div>
                                 </form>

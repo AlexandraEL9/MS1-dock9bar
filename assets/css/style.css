@@ -11,6 +11,16 @@ p {
     padding: 25px;
     font-size: 20px;
 }
+.btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ff3df9;
+    color: #fafafa;
+    
+}
+.btn:hover{
+    background-color: #1D3833;
+}
 
 /* Container Wrappers */
 .container-wrapper--light{
@@ -214,15 +224,7 @@ footer {
     max-width: 70%;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #ff3df9;
-}
-.button-send-message:hover{
-    background-color: #1D3833;
-}
+
 /*contact Page*/
 /*contactResponse Page*/
 .container-wrapper--light{
@@ -237,9 +239,6 @@ button[type="submit"] {
     
 }
 .contactResponse h2{
-}
-.btn-home{
-    margin-top: 50px;   
 }
 
 
@@ -260,13 +259,13 @@ button[type="submit"] {
 .card-text{
     color: #1D3833;
 }
-.btn{
+.btn-menu{
     background-color: #1D3833;
     border-color: #ff3df9;
     border-width: medium;
     color: antiquewhite;
 }
-.btn:hover{
+.btn-menu:hover{
     background-color: cadetblue;
     border-color: #ff3df9;
     border-width: medium;
