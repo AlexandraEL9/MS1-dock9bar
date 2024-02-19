@@ -214,12 +214,31 @@ button[type="submit"] {
     background-color: #ff3df9;
 }
 .button-send-message:hover{
-    background-color: #1D3833;;
+    background-color: #1D3833;
 }
+/*contact Page*/
+/*contactResponse Page*/
+.container-wrapper--light{
+
+}
+.contactResponse-container{
+    padding: 30px;
+    text-align: center;
+}
+.contactResponse h1{
+    font-size: 36px;
+    margin-top: 20px;
+    
+}
+.contactResponse h2{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
 
 /*Menus Page*/
 .container-menu-cards{
-     
+    
 }
 .menu-card{
     margin: 30px;   
