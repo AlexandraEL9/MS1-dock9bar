@@ -21,11 +21,6 @@ p {
 .btn:hover{
     background-color: #1D3833;
 }
-i{
-    color: #ff3df9;
-    text-align: center;
-
-}
 
 /* Container Wrappers */
 .container-wrapper--light{
@@ -39,6 +34,11 @@ i{
     
 }
 /*page headers*/
+.page-header{
+    margin-top: 5px;
+    border-bottom: 0;
+    text-align: center;
+}
 
 .page-header h2{
     margin-top: 5px;
@@ -46,14 +46,22 @@ i{
     text-align: center;
     justify-content: center;
 }
+.page-header i{
+    margin-top: 5px;
+    border-bottom: 0;
+    text-align: center;
+    color: #ff3df9;
+}
+.subpage-header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
 
 .subpage-header i{
     margin-bottom: 20px;
     font-size:35px;
     line-height: 35px;
     display: block;
-    background-color: #ff3df9;
-
 }
 
 /*block-divider*/
@@ -204,6 +212,7 @@ h3{
     display: block;
 }
 
+
 /* Gallery Page */
 .carousel-container {
     max-width: 600px;
@@ -219,10 +228,6 @@ h3{
     object-fit: cover;
     max-height: 500px;
 }
-
-
-
-
 /*contact Page*/
 .center-form{
     text-align: center;
@@ -246,12 +251,6 @@ textarea.form-control{
     text-align: center;
     min-height: calc(100vh - 20px);
 }
-.contactResponse h1{  
-    
-}
-.contactResponse h2{
-}
-
 
 /*Menus Page*/
 .container-menu-cards{
