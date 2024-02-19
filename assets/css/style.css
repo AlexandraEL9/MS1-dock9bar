@@ -26,12 +26,10 @@ p {
 .container-wrapper--light{
     background-color: cadetblue;
     color: antiquewhite;
-    
 }
 .container-wrapper--dark {
     background-color: #1D3833;
     color: antiquewhite;
-    
 }
 /*page headers*/
 .page-header{
@@ -39,31 +37,22 @@ p {
     border-bottom: 0;
     text-align: center;
 }
-
 .page-header h2{
     margin-top: 5px;
     border-bottom: 0;
-    text-align: center;
-    justify-content: center;
-}
-.page-header i{
-    margin-top: 5px;
-    border-bottom: 0;
-    text-align: center;
-    color: #ff3df9;
 }
 .subpage-header{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-}
 
+}
 .subpage-header i{
     margin-bottom: 20px;
     font-size:35px;
     line-height: 35px;
     display: block;
-}
 
+}
 /*block-divider*/
 .block-divider{
     width: 75px;
@@ -72,7 +61,6 @@ p {
     background-color: #ff3df9;
 }
 /* Navbar */
-
 .container-fluid.nav-container{
     margin-bottom: 20px;
 }
@@ -111,6 +99,10 @@ footer {
     padding: 20px 0;
     text-align: center;
     margin-top: auto;
+}
+
+.social-links {
+    margin-top: 10px;
 }
 
 .social-links .list-inline-item {
@@ -183,9 +175,6 @@ footer {
     padding: 20px;
     
 }
-h3{
-    text-align: center;
-}
 .address{
     
 }
@@ -212,7 +201,6 @@ h3{
     display: block;
 }
 
-
 /* Gallery Page */
 .carousel-container {
     max-width: 600px;
@@ -228,20 +216,16 @@ h3{
     object-fit: cover;
     max-height: 500px;
 }
+
+/*Contact Page*/
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
 /*contact Page*/
-.center-form{
-    text-align: center;
-}
-.form-control{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ff3df9;
-    border-radius: 5px;
-}
-textarea.form-control{
-    resize: vertical;
-}
 /*contactResponse Page*/
 .container-wrapper--light{
 
@@ -251,6 +235,12 @@ textarea.form-control{
     text-align: center;
     min-height: calc(100vh - 20px);
 }
+.contactResponse h1{  
+    
+}
+.contactResponse h2{
+}
+
 
 /*Menus Page*/
 .container-menu-cards{
