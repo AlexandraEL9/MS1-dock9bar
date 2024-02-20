@@ -1,8 +1,8 @@
 <h1 align="center">Milestone 1 Project- Dock 9 Bar</h1>
 
-[View the live project here.](#)
+[View the live project here.](#)[Coming Soon]
 
-This is the main marketing website for Dock 9, a bar in Salford Quays. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
+This is a promotional website for Dock 9, a bar in Salford Quay, completed for the Milestone 1 project in Level 5 Web Application and Development s. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
 
 <h2 align="center"><img src="#">Mock up images coming Soon!</h2>
 
@@ -13,42 +13,53 @@ This is the main marketing website for Dock 9, a bar in Salford Quays. It is des
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for reviews/testimonials to understand what their customers think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-        4. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.
+        3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.
+        4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about new and recurring events at the bar.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
+        2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit.
+        3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added events of images added to the gallery from an event I attended.
+        1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
         2. As a Frequent User, I want to check to see if there are any new products or menu items.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the bar's menus, events calendar or new bar openings.
+        3. ----
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are______.
+        *Brand Colours*: **Dock 9**
+    - The main colours used are #1D3833,(a rich dark green) for headings and some text on light backgrounds, cadetblue,(a medium turquoise/green), for the main body backgrounds, #ff3df9,(a bright neon pink) for icons and flourishes and antiquewhite used for text on dark backgrounds..
+
+
     -   #### Typography
-        -   The __________ font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. __________ is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font used frequently so it is both attractive and fit for purpose.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The large, background hero image of a neon bar sign is designed to be striking and catch the user's attention. It also has a modern aesthetic and makes the context of the site clear straight away.
 
-*   ### Wireframes
+*   ### Wireframes (coming soon)
+ ### Mobile Wireframes
 
-    -   Home Page Wireframe - [View](#)
+![Page Wireframe](#)
 
-    -   Mobile Wireframe - [View](#)
+-   #### Tablet Wireframes
 
-    -   Contact Us Page Wireframe - [View](#)
+![Page Wireframe](#)
+
+-   #### Desktop Wireframes
+
+![Page Wireframe](#)
 
 ## Features
 
--   Site is responsive on all device sizes
-
--   Site interactive elements including-
+-   Site is responsive on all device sizes.
+-   Gallery of images using carousel controlled by user.
+-   A menu page with button links to whole menus.
+-   Links to social media accounts.
+-   A form for users to contact the bar.
+-   Site interactive elements including
 
 ## Technologies Used
 
@@ -59,7 +70,7 @@ This is the main marketing website for Dock 9, a bar in Salford Quays. It is des
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
