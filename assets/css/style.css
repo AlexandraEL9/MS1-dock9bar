@@ -2,8 +2,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 p {
@@ -22,6 +24,9 @@ p {
 .btn:hover{
     background-color: #fafafa;
     color: #18273A;
+}
+.container-fluid{
+    height: 100%;
 }
 
 /* Container Wrappers */
