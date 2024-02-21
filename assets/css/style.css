@@ -124,7 +124,7 @@ footer {
 }
 
 /* index.html */
-.nameTagline-container{
+.name-tagline-container{
     height: 100vh;
 
   background: url('../images/bar-main.jpg') no-repeat center center fixed; 
@@ -188,7 +188,7 @@ footer {
 }
 
 /*icons*/
-.barinfo i{
+.bar-info i{
     margin-bottom: 20px;
     font-size:35px;
     line-height: 35px;
