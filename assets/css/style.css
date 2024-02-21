@@ -14,22 +14,24 @@ p {
 .btn{
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #ff3df9;
+    background-color: #18273A;
     color: #fafafa;
+    border-color: #ff3df9;
     
 }
 .btn:hover{
-    background-color: #1D3833;
+    background-color: #fafafa;
+    color: #18273A;
 }
 
 /* Container Wrappers */
 .container-wrapper--light{
-    background-color: cadetblue;
-    color: antiquewhite;
+    background-color: #9AB4D5;
+    color: #18273A;
 }
 .container-wrapper--dark {
-    background-color: #1D3833;
-    color: antiquewhite;
+    background-color: #18273A;
+    color: #fafafa;
 }
 /*page headers*/
 .page-header{
@@ -256,14 +258,14 @@ textarea.form-control {
     color: #1D3833;
 }
 .btn-menu{
-    background-color: #1D3833;
+    background-color: #18273A;
     border-color: #ff3df9;
     border-width: medium;
     color: antiquewhite;
 }
 .btn-menu:hover{
-    background-color: cadetblue;
+    background-color: #9AB4D5;
     border-color: #ff3df9;
     border-width: medium;
-    color: #1D3833;
+    color: #18273A;
 }
