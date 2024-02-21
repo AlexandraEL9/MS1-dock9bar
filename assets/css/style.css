@@ -127,7 +127,7 @@ footer {
 .nameTagline-container{
     height: 100vh;
 
-  background: url('../images/bar main.jpg') no-repeat center center fixed; 
+  background: url('../images/bar-main.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -140,7 +140,7 @@ footer {
 .secondary-image-container{
     height: 20vh;
 
-    background: url('../images/bartaps.jpg') no-repeat bottom right fixed;
+    background: url('../images/bar-taps.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -171,13 +171,8 @@ footer {
 }
 /*barinfo*/
 .barinfo {
-    padding: 20px;
-    
+    padding: 20px;   
 }
-.address{
-    
-}
-
 .map-container {
     position: relative;
     overflow: hidden;
@@ -241,25 +236,12 @@ textarea.form-control {
     resize: vertical; /* Allow vertical resizing of textarea */
 }
 /*contactResponse Page*/
-.container-wrapper--light{
-
-}
 .container-fluid.contactResponse-container{
     padding-top: 100px;
     text-align: center;
     min-height: calc(100vh - 20px);
 }
-.contactResponse h1{  
-    
-}
-.contactResponse h2{
-}
-
-
 /*Menus Page*/
-.container-menu-cards{
-    
-}
 .menu-card{
     margin: 30px;   
 }
