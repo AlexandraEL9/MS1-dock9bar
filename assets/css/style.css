@@ -7,13 +7,11 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
-
-p {
+h2, h3, p{
     text-align: center;
-    padding: 25px;
-    font-size: 20px;
 }
-.btn{
+
+/*.btn{
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #18273A;
@@ -26,61 +24,7 @@ p {
     color: #18273A;
 }
 
-/* Container Wrappers */
-.container-wrapper--light{
-    background-color: #9AB4D5;
-    color: #18273A;
-    padding: 50px;
-    width: 100%;
-    min-height: 80vh;
-    
-
-}
-.container-wrapper--dark {
-    background-color: #18273A;
-    color: #fafafa;
-    width: 100%;
-}
-/*page headers*/
-.page-header{
-    margin-top: 5px;
-    border-bottom: 0;
-    text-align: center;
-}
-.page-header h2{
-    margin-top: 5px;
-    border-bottom: 0;
-}
-.subpage-header{
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-
-}
-.subpage-header i{
-    margin-bottom: 20px;
-    font-size:35px;
-    line-height: 35px;
-    display: block;
-}
-/*block-divider*/
-.block-divider{
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #ff3df9;
-}
-/* Navbar */
-.nav-container{
-    margin-bottom: 20px;
-}
-.nav-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
+/* Navigation bar */
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -98,9 +42,25 @@ p {
 .navbar .navbar-nav a {
     font-weight: bold;
     color: #fff;
-    margin: o 10px;
+    margin: 10px;
 }
 
+/*block-divider*/
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #ff3df9;
+}
+
+/*icons*/
+i{
+    margin-bottom: 20px;
+    font-size:35px;
+    line-height: 35px;
+    display: block;
+    color: #ff3df9;  
+}
 
 /* Footer */
 footer {
@@ -179,7 +139,38 @@ footer {
     font-size: x-large;
     margin-bottom: 20px;
 }
-/*barinfo*/
+/* Ethos Section */
+.ethos-container {
+    background-color: #18273A;
+    color: #fff; /* white */
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+/* General Info Section */
+.general-info-container {
+    padding: 20px 0;
+    background-color: #9AB4D5;
+}
+.barinfo {
+    padding: 20px;   
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
+}
+/*barinfo
 .barinfo {
     padding: 20px;   
 }
@@ -195,15 +186,7 @@ footer {
     height: auto;
     display: block;
     border-radius: inherit;
-}
-
-/*icons*/
-.bar-info i{
-    margin-bottom: 20px;
-    font-size:35px;
-    line-height: 35px;
-    display: block;
-}
+} */
 
 /* Gallery Page */
 .carousel-container {
