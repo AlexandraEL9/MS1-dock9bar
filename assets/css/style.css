@@ -139,6 +139,20 @@ footer {
     color: #9AB4D5;
 }
 
+/* review section */
+.reviewer-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+}
+.blockquote{
+    font-style: italic;
+}
+.blockquote-footer{
+    background-color: rgba(0, 0, 0);
+    color: #9AB4D5;
+}
+
 /* index.html */
 .name-tagline-container{
     height: 100vh;
