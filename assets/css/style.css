@@ -42,6 +42,9 @@ p {
     color: #fafafa;
     width: 100%;
 }
+.container-wrapper--dark i{
+    color: #ff3df9;
+}
 
 /*page headers*/
 .page-header{
@@ -64,6 +67,7 @@ p {
     line-height: 35px;
     display: block;
 }
+
 /*block-divider*/
 .block-divider{
     width: 75px;
@@ -190,7 +194,7 @@ footer {
     overflow: hidden;
     border-radius: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 2display: flex;0px;
 }
 
 .map-container img {
