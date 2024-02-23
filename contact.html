@@ -53,24 +53,30 @@
                             <h5 class="uppercase text-center">Drop us a message and we'll get back to you!</h5>
                         </div>
         <!--Contact main body FORM-->
-                        <div class="center-form col-12 col-lg-6">
-                                <form id="contactForm" action="/contactresponse.html" method="post" onsubmit="return confirmSubmission();">
-                                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                                    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-                                    <div class="form-row text-center">
-                                        <div class="col">
-                                            <a href="/contactresponse.html" class="btn btn-secondary button-send-message">Send Message</a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-            
-                        </div>
-                    </div>
-            
-                </section>
-            </div>
+        <div class="center-form col-12 col-lg-6">
+            <form 
+                class="row g-3" name="contact" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                <div class="col-12 col-lg-6">
+                  <label for="firstName" class="form-label" >First Name</label>
+                  <input type="text" name="first-name" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <label for="lastName" class="form-label" >Last Name</label>
+                  <input type="text" name="last-name" class="form-control" id="lastName" required>
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" name="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" name="comments" id="message" rows="5" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-ft-brand">Send</button>
+                </div>
+              </form>
+        </div>
             <section class="reviews">
                 <div class="container-fluid container-wrapper--dark">
                     <div class="subpage-header-container">
