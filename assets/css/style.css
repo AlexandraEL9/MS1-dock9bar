@@ -264,7 +264,18 @@ textarea.form-control {
 }
 /*Menus Page*/
 .menu-card{
-    margin: 30px;   
+    margin-bottom: 20px;
+}
+   
+.card{
+    text-align:center; 
+    height:100%;
+    width: 18rem;
+    margin: 30px;
+}
+.card-img-top{
+    height: auto;
+    width: 100%;
 }
 .card-body{
     font-family: 'Roboto', sans-serif;
