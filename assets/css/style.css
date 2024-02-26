@@ -237,6 +237,18 @@ footer {
 }
 
 /*contact Page*/
+@media screen and (min-width: 768px){
+    .contact-heading .col-lg-4{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        
+    }
+    /*.contact-heading h3,
+    .contact-heading h5 {
+        width: 100%;
+        text-align: center;
+    }*/
+}
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -249,7 +261,7 @@ footer {
 
 .form-control {
     width: 100%;
-    margin-bottom: 20px; /* Adjust spacing between form fields */
+    margin-bottom: 20px; 
     padding: 10px;
     border: 1px solid #ff3df9;
     border-radius: 5px;
