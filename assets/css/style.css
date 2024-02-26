@@ -259,13 +259,18 @@ textarea.form-control {
     resize: vertical;
 }
 /* Menus Page */
-.container-menus{
-    background-color: #9AB4D5;
-    width: 100%;
+.menus-section {
+    background-color: #9AB4D5; /* Set the desired background color */
+    padding: 50px 0; /* Add padding to the top and bottom of the section */
 }
+
 .menu-card {
     margin-bottom: 20px;
     text-align: center;
+}
+.card{
+    width: 100%;
+    height: 100%;
 }
 
 .card-img-top {
@@ -275,6 +280,7 @@ textarea.form-control {
 
 .card-body {
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
 }
 
 .card-title {
