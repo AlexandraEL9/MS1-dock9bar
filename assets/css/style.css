@@ -241,13 +241,9 @@ footer {
     .contact-heading .col-lg-4{
         flex: 0 0 33.33%;
         max-width: 33.33%;
+        margin: 0 auto;
         
     }
-    /*.contact-heading h3,
-    .contact-heading h5 {
-        width: 100%;
-        text-align: center;
-    }*/
 }
 .center-form {
     padding-top: 10px;
