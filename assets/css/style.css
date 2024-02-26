@@ -222,18 +222,50 @@ footer {
 
 /* Gallery Page */
 .carousel-container {
-    max-width: 600px;
+    max-width: 100%; /* Set a maximum width for the carousel */
     margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Center the carousel horizontally */
 }
 
 .carousel-inner {
-    max-height: 600px;
-    overflow: hidden;
+    width: 100%; /* Set a maximum height for the carousel */
+}
+
+.carousel-item {
+    height: 300px; /* Set a fixed height for the carousel item */
 }
 
 .carousel-item img {
-    object-fit: cover;
-    height: 500px;
+    object-fit: cover; /* Ensure the images cover the entire carousel item */
+    width: 100%; /* Make sure images take up the entire width of the carousel item */
+    height: 100%; /* Ensure images fill the carousel item */
+}
+
+.carousel-indicators {
+    position: absolute; /* Position indicators absolutely within the container */
+    bottom: 10px; /* Adjust the bottom spacing as needed */
+    left: 0;
+    right: 0;
+    text-align: center; /* Center the indicators */
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px; /* Adjust the margin between indicators */
+    border-radius: 50%;
+    background-color: #fff; /* Change the indicator color */
+}
+
+.carousel-indicators .active {
+    background-color: #000; /* Change the active indicator color */
+}
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        max-height: none; /* Remove the maximum height for small screens */
+    }
 }
 
 /*contact Page*/
@@ -242,8 +274,7 @@ footer {
         flex: 0 0 33.33%;
         max-width: 33.33%;
         margin: 0 auto;
-        
-    }
+        }
 }
 .center-form {
     padding-top: 10px;
@@ -268,8 +299,8 @@ textarea.form-control {
 }
 /* Menus Page */
 .menus-section {
-    background-color: #9AB4D5; /* Set the desired background color */
-    padding: 50px 0; /* Add padding to the top and bottom of the section */
+    background-color: #9AB4D5; 
+    padding: 50px 0; 
 }
 
 .menu-card {
