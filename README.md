@@ -54,6 +54,8 @@ People who live in the surrounding residential area, work in the area or are vis
 -#ff3df9, a neon pink. Used for highlights, outlines, buttons etc.<br>
 -White and blach were ised in the navbar and footer and in typography for contrast.
 
+![Colour scheme](./docs/colour-scheme.png)
+
 - The main colours used are ##18273A(a rich dark grblur)r headings and some text on light backgrounds, cadetblue,(a medium turquoise/green), for the main body backgrounds, #ff3df9,(a bright neon pink) for icons and flourishes and antiquewhite used for text on dark backgrounds..
 
 
