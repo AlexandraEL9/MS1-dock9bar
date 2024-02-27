@@ -45,49 +45,67 @@ People who live in the surrounding residential area, work in the area or are vis
 2. As a Frequent User, I want to check to see if there are any new products or menu items.
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
--   ### Design
+**Features To Achieve These Goals**
 
-    -   #### Colour Scheme
-        *Brand Colours*: **Dock 9**<br>
+-The website uses responsive design so it can be seen on different devices easily.<br>
+-The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.<br>
+-The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.<br>
+-The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.<br>
+-The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
+-There is a contact form making interaction easy.<br>
+-There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
+-Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
+
+- ### Design
+
+**Colour Scheme**
+
 -#18273A, a dark navy blue.  Used  mostly for title/header sections <br>
--#9AB4D5, a lighter blue. Mostly used for   main content sections to contrast with the dark blue whilst keeping the theme. <br>
+-#9AB4D5, a lighter blue. Mostly used for main content sections to contrast with the dark blue whilst keeping the theme. <br>
 -#ff3df9, a neon pink. Used for highlights, outlines, buttons etc.<br>
--White and blach were ised in the navbar and footer and in typography for contrast.
+-White and black were used in the navbar and footer and in typography for contrast.
 
 ![Colour scheme](./docs/colour-scheme.png)
 
-- The main colours used are ##18273A(a rich dark grblur)r headings and some text on light backgrounds, cadetblue,(a medium turquoise/green), for the main body backgrounds, #ff3df9,(a bright neon pink) for icons and flourishes and antiquewhite used for text on dark backgrounds..
+- The colour scheme matches the branding of the bar to aid synergy.
+-The two heritage blues are a nod to traditional 'heritage' colours of old fashioned pubs, the navy blue especially referencing the nautical and industrial past of the area.
+-The bright, neon pink is a quirky reference the the area's current iteration as a culture and media hub, referencing the neon lights of the BBC and ITV buildings and the Lowry Theatre shining and bouncing off the water of the quays.
+- Black is used for the navbar and footer, giving the site pages a clear top and bottom/ start and end point.
 
-
-    -   #### Typography
+#### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font used frequently so it is both attractive and fit for purpose.
-    -   #### Imagery
+
+#### Imagery
         -   The large, background hero image of a neon bar sign is designed to be striking and catch the user's attention. It also has a modern aesthetic and makes the context of the site clear straight away.
 
-**Features To Achieve These Goals**
 
--The website uses responsive design so it can be seen on different devices easily.
--The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.
--The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.
--The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.
--The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.
--There is a contact form making interaction easy.
--There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.
--Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar. 
+* ### Wireframes (coming soon)
+I used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) to create wireframes before starting the project to help me plan the layout and flow of the project.<br>
+When I was creating my website, the design plan was changed. Having never done the process before and lacking experience, my first designs were far to simple and lacking content and I had more time to add extra features to the site to add value, for examle, adding page specific reviews with images and a subscription form on every page.
 
+ ### Homepage Wireframes
 
-*   ### Wireframes (coming soon)
- ### Mobile Wireframes
+- [**Desktop**](./wireframes/home-desktop.png)
+- [**Tablet**](./wireframes/home-tablet.png)
+- [**Mobile**](./wireframes/home-mobile.png)
 
-![Page Wireframe](#)
+#### Gallery Page Wireframes
 
--   #### Tablet Wireframes
+- [**Desktop**](./wireframes/gallery-page-desktop.png)
+- [**Tablet**](./wireframes/gallery-page-tablet.png)
+- [**Mobile**](./wireframes/gallery-page-mobile.png)
 
-![Page Wireframe](#)
+#### Contact Page Wireframes
 
--   #### Desktop Wireframes
+- [**Desktop**](./wireframes/contact-page-desktop.png)
+- [**Tablet**](./wireframes/contact-page-tablet.png)
+- [**Mobile**](./wireframes/contact-page-mobile.png)
 
-![Page Wireframe](#)
+#### Menus Page Wireframes
+
+- [**Desktop**](./wireframes/menus-page-desktop.png)
+- [**Tablet**](./wireframes/menus-page-tablet.png)
+- [**Mobile**](./wireframes/menus-page-mobile.png)
 
 ## Technologies Used
 
