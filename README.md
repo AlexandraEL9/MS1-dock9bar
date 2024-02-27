@@ -2,9 +2,26 @@
 
 [View the live project here.](#)[Coming Soon]
 
-This is a promotional website for Dock 9, a bar in Salford Quay, completed for the Milestone 1 project in Level 5 Web Application and Development s. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
+This is step one of a promotional website for Dock 9, an existing bar and brewery acquired and under new management, which is part of an exciting regeneration project in Salford Quays. The company aims are to mix old school and traditional brewing techniques and craftsmanship with modern accents in a nod to the industrial past and modern present of the area. The area has a large residential population as well as a number of creative industries, a retail shopping outlet and cultural sites such as museums, art galleries and Old Trafford Football Staduim all within walking distance of eachother and accessible by the Metrolink Tram Network. As such, the company would like to not only attract new patrons, but also begin to build itself into the heart of the community, eventually becoming a community hub.<br> This project was completed for the Milestone 1 project in Level 5 Web Application and Development. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
 
 <h2 align="center"><img src="#">Mock up images coming Soon!</h2>
+
+## Planning
+
+**Target Audience**
+People who live in the surrounding residential area, work in the area or are visiting as tourists to the area.
+
+**User Goals**
+-Be able to locate the bar and know opening times etc.
+-Get a feel for the bar's ethos and offering through information offered by the site eg, text information, menu downloads and images.
+-Be able to contact the bar with any questions and access their social media.
+-Read reviews and or testimonials from previous patrons.
+
+**Site Owner Goals**
+-Showcase the bar's new look and food offerings.
+-Entice patrons into the bar over other competition.
+-Begin to build community with patrons through social media and newsletter subscription.
+
 
 ## User Experience (UX)
 
@@ -12,32 +29,50 @@ This is a promotional website for Dock 9, a bar in Salford Quay, completed for t
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.
-        3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.
-        4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.
+1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.
+2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.
+3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.
+4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
-        2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit.
-        3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
+1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
+2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.
+3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
-        2. As a Frequent User, I want to check to see if there are any new products or menu items.
-        3. ----
+1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
+2. As a Frequent User, I want to check to see if there are any new products or menu items.
+3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
 -   ### Design
+
     -   #### Colour Scheme
-        *Brand Colours*: **Dock 9**
-    - The main colours used are #1D3833,(a rich dark green) for headings and some text on light backgrounds, cadetblue,(a medium turquoise/green), for the main body backgrounds, #ff3df9,(a bright neon pink) for icons and flourishes and antiquewhite used for text on dark backgrounds..
+        *Brand Colours*: **Dock 9**<br>
+-#18273A, a dark navy blue.  Used  mostly for title/header sections <br>
+-#9AB4D5, a lighter blue. Mostly used for   main content sections to contrast with the dark blue whilst keeping the theme. <br>
+-#ff3df9, a neon pink. Used for highlights, outlines, buttons etc.<br>
+-White and blach were ised in the navbar and footer and in typography for contrast.
+
+- The main colours used are ##18273A(a rich dark grblur)r headings and some text on light backgrounds, cadetblue,(a medium turquoise/green), for the main body backgrounds, #ff3df9,(a bright neon pink) for icons and flourishes and antiquewhite used for text on dark backgrounds..
 
 
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font used frequently so it is both attractive and fit for purpose.
     -   #### Imagery
         -   The large, background hero image of a neon bar sign is designed to be striking and catch the user's attention. It also has a modern aesthetic and makes the context of the site clear straight away.
+
+**Features To Achieve These Goals**
+
+-The website uses responsive design so it can be seen on different devices easily.
+-The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.
+-The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.
+-The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.
+-The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.
+-There is a contact form making interaction easy.
+-There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.
+-Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar. 
+
 
 *   ### Wireframes (coming soon)
  ### Mobile Wireframes
@@ -51,15 +86,6 @@ This is a promotional website for Dock 9, a bar in Salford Quay, completed for t
 -   #### Desktop Wireframes
 
 ![Page Wireframe](#)
-
-## Features
-
--   Site is responsive on all device sizes.
--   Gallery of images using carousel controlled by user.
--   A menu page with button links to whole menus.
--   Links to social media accounts.
--   A form for users to contact the bar.
--   Site interactive elements including
 
 ## Technologies Used
 
