@@ -6,10 +6,10 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 }
-body > footer{
-    position:sticky;
-    top:100vh;
 
+body>footer {
+	position: sticky;
+	top: 100vh;
 }
 
 p {
@@ -120,6 +120,7 @@ p {
 	color: #fff;
 	margin: o 10px;
 }
+
 /* review section */
 .reviewer-image {
 	height: 100px;
@@ -135,15 +136,14 @@ p {
 	background-color: rgba(0, 0, 0);
 	color: #9AB4D5;
 }
+
 /* Subscription */
-.container-subscribe{
+.container-subscribe {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	background-color: #18273A;
 }
-
-
 
 /* Footer */
 footer {
@@ -178,6 +178,7 @@ footer {
 }
 
 /* index.html **********************************************************/
+
 .name-tagline-container {
 	height: 100vh;
 	background: url('../images/bar-main.jpg') no-repeat center center fixed;
@@ -202,6 +203,7 @@ footer {
 	justify-content: center;
 	position: relative;
 }
+
 /*jumbotron*/
 .jumbotron {
 	margin-top: 200px;
@@ -221,6 +223,7 @@ footer {
 	font-size: x-large;
 	margin-bottom: 20px;
 }
+
 /*barinfo*/
 .barinfo {
 	padding: 20px;
@@ -242,6 +245,7 @@ footer {
 }
 
 /* Gallery Page ****************************************************/
+
 .carousel-container {
 	max-width: 100%;
 	margin: 0 auto;
@@ -291,6 +295,7 @@ footer {
 }
 
 /*contact Page****************************************************/
+
 @media screen and (min-width: 768px) {
 	.contact-heading .col-lg-4 {
 		flex: 0 0 33.33%;
@@ -320,7 +325,9 @@ footer {
 textarea.form-control {
 	resize: vertical;
 }
+
 /* Menus Page ***********************************************/
+
 .menus-section {
 	background-color: #9AB4D5;
 	padding: 50px 0;
