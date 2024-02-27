@@ -25,22 +25,22 @@ People who live in the surrounding residential area, work in the area or are vis
 
 ## User Experience (UX)
 
--   ### User stories
+- ### User stories
 
-    -   #### First Time Visitor Goals
+- **First Time Visitor Goals**
 
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.
 3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.
 4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.
 
-    -   #### Returning Visitor Goals
+     **Returning Visitor Goals**
 
 1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
 2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
-    -   #### Frequent User Goals
+     **Frequent User Goals**
 1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
 2. As a Frequent User, I want to check to see if there are any new products or menu items.
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
@@ -79,7 +79,7 @@ People who live in the surrounding residential area, work in the area or are vis
         -   The large, background hero image of a neon bar sign is designed to be striking and catch the user's attention. It also has a modern aesthetic and makes the context of the site clear straight away.
 
 
-* ### Wireframes (coming soon)
+* ### Wireframes
 I used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) to create wireframes before starting the project to help me plan the layout and flow of the project.<br>
 When I was creating my website, the design plan was changed. Having never done the process before and lacking experience, my first designs were far to simple and lacking content and I had more time to add extra features to the site to add value, for examle, adding page specific reviews with images and a subscription form on every page.
 
@@ -117,21 +117,36 @@ When I was creating my website, the design plan was changed. Having never done t
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+- Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Google Fonts:](https://fonts.google.com/)
+- Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
+- Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+4. [jQuery:](https://jquery.com/)
+- jQuery came with Bootstrap to make the navbar responsive.
+5. [Git](https://git-scm.com/)
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6. [GitHub:](https://github.com/)
+- GitHub is used to store the projects code after being pushed from Git.
+7. [Balsamiq:](https://balsamiq.com/)
+- Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
+- Tested with different browsers such as Chrome, Firefox, and Safari.
+- Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
+
+![Tested different screen sizes]SCREENSHOTS COMING SOON(./readme/test/testscreensize.png)
+
+- Tested navigation bar links. Home, Gallery, Contact and Menus pages jump to the respective places when clicked.
+
+- Tested gallery controls checking carousel only moves on as a result of user input.
+
+- Tested all social media links in the footer to ensure they open in a new tab with the correct destination when clicked.
+
+- Tested the form on the Contact page. All required fields worked and the submission button worked.
+- Tested the subscription form. All required fields worked and the submission button worked.
+
+### Validator Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
