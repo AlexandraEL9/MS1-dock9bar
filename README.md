@@ -182,34 +182,27 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 
 - #### First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.<br>
-**1a.**
-- Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text making the sites content and purpose clear.<br>
+**1a.** Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text making the sites content and purpose clear.<br>
 - The main basic information is put across first (who,what,where,when)<br>
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.<br>
-**2a**
-- The user has options, use the navigation bar to enter specific site pages scroll down to read more generic info about the bar, subscribe to recieve newsletters or finally,to view the bar's social media through the links in the footer.
+**2a** The user has options, use the navigation bar to enter specific site pages scroll down to read more generic info about the bar, subscribe to recieve newsletters or finally,to view the bar's social media through the links in the footer.
 
 3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.<br>
-**3a**
-- The site has 2 pages dedicated to this information accessed from the navbar. Page content specific reviews are on each page so patrons see a relevent review to the content they are reading about.
+**3a** The site has 2 pages dedicated to this information accessed from the navbar. Page content specific reviews are on each page so patrons see a relevent review to the content they are reading about.
 
 4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.<br>
-**4a**
-- The site includes a footer on every page with links to relevent social media.
+**4a** The site includes a footer on every page with links to relevent social media.
 
 - #### Returning Visitor Goals
 1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.<br>
-**1a**
-- The website has a Contact Us page easily accessible from the navbar.
+**1a** The website has a Contact Us page easily accessible from the navbar.
 
 2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.<br>
-**2a**
-- From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the menus with proices.
+**2a** From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the menus with prices.
 
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media.<br>
-**3a**
-- The site includes a footer on every page with links to relevent social media. 
+**3a** The site includes a footer on every page with links to relevent social media. 
 
 - #### Frequent User Goals
 1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.<br>
@@ -242,65 +235,28 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap was also used as the gase code for the forms, jumbotron the image carousel.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- I referred to  the [W3 schools](https://www.w3schools.com/html/default.asp) website's HTML and CSS sections in order to check syntax.
+- To make the navigation bar I adapted the code from the Whiskey Drop Tutorial. I also adapted the jumbotron base code to my own needs.  
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All content was written by the developer unless otherwise stated in the credits.
 
 ### Media
 
@@ -308,6 +264,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   My Mentor Excellence Ilesanmi for continuous helpful feedback.
+-   My tutor from EKC Group Rachel Furlong for support in Tutor meetings.
+-   The Code Institute Slack Channel.
