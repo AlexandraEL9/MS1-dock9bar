@@ -144,12 +144,10 @@ When I was creating my website, the design plan was changed. Having never done t
 - Tested with different browsers such as Chrome, Firefox, and Safari.
 - Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
     - - The site uses bootstrap across all pages to use a 1, 2, or 3 column layout. One column for small screen sizes, 2 columns for medium screen sizes and 3 columns for large screen sizes.<br>
-**Homepage**
-- [**Top Page View**](./docs/responsive-home-1.png)
-- [**Middle/Bottom Page View**](./docs/responsive-home-2.png)
 
-
-
+**Homepage examples**
+- [**Top Page View**](./docs/responsive-homepage-1.png)
+- [**Middle/Bottom Page View**](./docs/responsive-homepage-2.png)
 
 ### Validator Testing
 
@@ -171,7 +169,7 @@ The Google Page-speed Services were used to assess the accessibiity of the proje
 ![Google Page-Speed Insights Mobile](/docs/testing/page-speed-mobile.png)
 
 -SEO score could be improved by adding a meta description tag to the head.<br>
--Page performance is an issue- possibly down to the large size of the main image on the site.
+-Page performance is an issue- possibly down to the large size of the main image on the site. Next steps would be to investigate reducing images without sacrificing quality.
 
 ### Lighthouse DevTools Audit Report
 
@@ -181,13 +179,13 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 ![Google Page-Speed Insights Mobile](/docs/testing/lighthouse-page-test-mobile.png)
 
 -SEO score could be improved by adding a meta description tag to the head.<br>
--Page performance is an issue- possibly down to the large size of the main image on the site.
+-Page performance is an issue- possibly down to the large size of the main image on the site. As above, Next steps would be to investigate reducing images without sacrificing quality.
 
 ### Testing User Stories from User Experience (UX) Section
 
 - #### First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.<br>
-**1a.** Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text making the sites content and purpose clear.<br>
+**1a.** Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text making the site's content and purpose clear.<br>
 - The main basic information is put across first (who,what,where,when)<br>
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.<br>
@@ -204,7 +202,7 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 **1a** The website has a Contact Us page easily accessible from the navbar.
 
 2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.<br>
-**2a** From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the menus with prices.
+**2a** From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the current menus with prices.
 
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media.<br>
 **3a** The site includes a footer on every page with links to relevent social media. 
@@ -216,16 +214,13 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 **2a** The dedicated menu page has up to date menus. This page could be enhanced with a "Coming Soon!" section for new/ seasonal menus. Customers can also choose to be kept up to date via the newsletter subscription.
 
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.<br>
-**3a** As per the companies wish to have a way to reach out to their customers, each page includes a form through which customers can sign up to a newsletter subscription.
+**3a** As per the wishes of the company to have a way to reach out to their customers, each page includes a form through which customers can sign up to a newsletter subscription.
 
 ### Further Testing
-
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. In early building, testing showed that there were white spaces at the botton and sides in some device sizes.
 -   A large amount of repeated testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Known Bugs/ issues
 
 - Performance needs to be enhanced, especially load time, and investigation work done around images slowing things down
 
@@ -239,34 +234,52 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 ## Deployment
 
 ### GitHub Pages
+This site was deployed using GitHub pages.
 
-
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (within the grey bar), locate the "Settings" Button on the menu.
+3. Scroll down the Settings menu on the left hand side until you locate the "Pages" Section. Click "Pages".
+4. Under "Source", click the dropdown called "None" and select "Branch". Save.
+5. The page will refresh.
+6. Go to "Pages" to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
-
-
+Forking the GitHub Repository creates a copy of the original repository on our GitHub account which enables us to make changes without changing the original. 
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (within the grey bar) just close to the "Settings" Button on the menu, find the "Fork" Button. Click
+3. You should now have a copy of the repository in your GitHub account.
 
 ### Making a Local Clone
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS". Copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type "git clone". Paste the URL you copied in Step 3.
+7. Press Enter. Now local clone will be created.
 
-
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to access github docs and learn more about the process.
 
 ## Credits
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap was also used as the gase code for the forms, jumbotron the image carousel.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap was also used as the base code for the forms, jumbotron the image carousel.
 
 - I referred to  the [W3 schools](https://www.w3schools.com/html/default.asp) website's HTML and CSS sections in order to check syntax.
 - I also referred to [StackOverflow] (https://stackoverflow.com/)
-- To make the navigation bar I adapted the code from the Whiskey Drop Tutorial. I also adapted the jumbotron base code to my own needs.  
+- I adapted the basic code from notes following the Whiskey Drop tutorials from the Code Institute website to achieve the navbar and the reviews sections.
+- I utilised [Free Formatter](https://www.freeformatter.com/) to check the formatting of my code.
 
 ### Content
 
--   All content was written by the developer unless otherwise stated in the credits.
+-  All content was written by the developer unless otherwise stated in the credits.
 
 ### Media
 - Google Map (Used a screenshot of Salford Quays with a pin drop and added to the home page 'General Info section )<br>
 - Images were sourced from [Unsplash](https://unsplash.com/)
+- [Canva](https://www.canva.com/templates/) was used to create the example menus using a template.
+- I utilised [Coolors](https://coolors.co/28262c-998fc7-d4c2fc-f9f5ff-14248a/) Palette Generator to create the color palette image in my README.md
 
 ### Acknowledgements
 
