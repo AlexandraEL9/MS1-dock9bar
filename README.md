@@ -216,7 +216,7 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX. In early building, testing showed that there were white spaces at the botton and sides in some device sizes.
 -   A large amount of repeated testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -252,6 +252,7 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap was also used as the gase code for the forms, jumbotron the image carousel.
 
 - I referred to  the [W3 schools](https://www.w3schools.com/html/default.asp) website's HTML and CSS sections in order to check syntax.
+- I also referred to [StackOverflow] (https://stackoverflow.com/)
 - To make the navigation bar I adapted the code from the Whiskey Drop Tutorial. I also adapted the jumbotron base code to my own needs.  
 
 ### Content
@@ -259,8 +260,8 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 -   All content was written by the developer unless otherwise stated in the credits.
 
 ### Media
-
--   
+- Google Map (Used a screenshot of Salford Quays with a pin drop and added to the home page 'General Info section )<br>
+- Images were sourced from [Unsplash](https://unsplash.com/)
 
 ### Acknowledgements
 
