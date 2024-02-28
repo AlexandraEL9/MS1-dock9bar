@@ -117,7 +117,7 @@ When I was creating my website, the design plan was changed. Having never done t
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-- Bootstrap was used to assist with the responsiveness and styling of the website.
+- Bootstrap was used to assist with the responsiveness and styling of components in the website.
 2. [Google Fonts:](https://fonts.google.com/)
 - Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
@@ -265,10 +265,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. Bootstrap was also used as the base code for the forms, jumbotron the image carousel.
-
 - I referred to  the [W3 schools](https://www.w3schools.com/html/default.asp) website's HTML and CSS sections in order to check syntax.
 - I also referred to [StackOverflow] (https://stackoverflow.com/)
-- I adapted the basic code from notes following the Whiskey Drop tutorials from the Code Institute website to achieve the navbar and the reviews sections.
+- I adapted the basic code from notes following the "Whiskey Drop" tutorials from the Code Institute website to achieve the navbar and the reviews sections.
 - I utilised [Free Formatter](https://www.freeformatter.com/) to check the formatting of my code.
 
 ### Content
