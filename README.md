@@ -2,9 +2,10 @@
 
 [View the live project here.](https://alexandrael9.github.io/MS1-dock9bar/index.html)
 
-This is step one of a promotional website for Dock 9, an existing bar and brewery acquired and under new management, which is part of an exciting regeneration project in Salford Quays. The company aims are to mix old school and traditional brewing techniques and craftsmanship with modern accents in a nod to the industrial past and modern present of the area. The area has a large residential population as well as a number of creative industries, a retail shopping outlet and cultural sites such as museums, art galleries and Old Trafford Football Staduim all within walking distance of eachother and accessible by the Metrolink Tram Network. As such, the company would like to not only attract new patrons, but also begin to build itself into the heart of the community, eventually becoming a community hub.<br> This project was completed for the Milestone 1 project in Level 5 Web Application and Development. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
+This is step one of a promotional website for Dock 9, an existing bar and brewery acquired and under new management, which is part of an exciting regeneration project in Salford Quays. The company aims are to mix old school and traditional brewing techniques and craftsmanship with modern accents in a nod to the industrial past and modern present of the area. The area has a large residential population as well as a number of creative industries, a retail shopping outlet and cultural sites such as museums, art galleries and Old Trafford Football Staduim all within walking distance of eachother and accessible by the Metrolink Tram Network. As such, the company would like to not only attract new patrons, but also begin to build itself into the heart of the community, eventually becoming a community hub.<br> 
+- This project was completed for the Milestone 1 project in Level 5 Web Application and Development. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
 
-<h2 align="center"><img src"./docs/responsive-layout.png">Mock up images coming Soon!</h2>
+<h2 align="center"><img src="./docs/responsive-layout.png"></h2>
 
 ## Planning
 
@@ -12,51 +13,51 @@ This is step one of a promotional website for Dock 9, an existing bar and brewer
 People who live in the surrounding residential area, work in the area or are visiting as tourists to the area.
 
 **User Goals**
--Be able to locate the bar and know opening times etc.
--Get a feel for the bar's ethos and offering through information offered by the site eg, text information, menu downloads and images.
--Be able to contact the bar with any questions and access their social media.
--Read reviews and or testimonials from previous patrons.
+- Be able to locate the bar and know opening times etc.
+- Get a feel for the bar's ethos and offering through information offered by the site eg, text information, menu downloads and images.
+- Be able to contact the bar with any questions and access their social media.
+- Read reviews and or testimonials from previous patrons.
 
 **Site Owner Goals**
--Showcase the bar's new look and food offerings.
--Entice patrons into the bar over other competition.
--Begin to build community with patrons through social media and newsletter subscription.
+- Showcase the bar's new look and food offerings.
+- Entice patrons into the bar over other competition.
+- Begin to build community with patrons through social media and newsletter subscription.
 
 
 ## User Experience (UX)
 
-- ### User stories
+ ### User stories
 
-- **First Time Visitor Goals**
+ **First Time Visitor Goals**
 
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.
 3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.
 4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.
 
-     **Returning Visitor Goals**
+  **Returning Visitor Goals**
 
 1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.
 2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
-     **Frequent User Goals**
+  **Frequent User Goals**
 1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
 2. As a Frequent User, I want to check to see if there are any new products or menu items.
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
 **Features To Achieve These Goals**
 
--The website uses responsive design so it can be seen on different devices easily.<br>
--The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.<br>
--The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.<br>
--The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.<br>
--The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
--There is a contact form making interaction easy.<br>
--There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
--Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
+- The website uses responsive design so it can be seen on different devices easily.<br>
+- The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.<br>
+- The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.<br>
+- The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.<br>
+- The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
+- There is a contact form making interaction easy.<br>
+- There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
+- Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
 
-- ### Design
+ ### Design
 
 **Colour Scheme**
 
@@ -67,16 +68,15 @@ People who live in the surrounding residential area, work in the area or are vis
 
 ![Colour scheme](./docs/colour-scheme.png)
 
-- The colour scheme matches the branding of the bar to aid synergy.<br>
-- The two heritage blues are a nod to traditional 'heritage' colours of old fashioned pubs, the navy blue especially referencing the nautical and industrial past of the area.<br>
-- The bright, neon pink is a quirky reference the the area's current iteration as a culture and media hub, referencing the neon lights of the BBC and ITV buildings and the Lowry Theatre shining and bouncing off the water of the quays.<br>
+- The two shades of blue are a nod to traditional 'heritage' colours of old fashioned pubs, the navy blue especially referencing the nautical and industrial past of the area. A dark and light shade were chosed so they could be used to 'section off' parts of the webpage.<br>
+- The bright, neon pink is a quirky reference the the area's current iteration as a culture and media hub, referencing the neon lights of the BBC and ITV buildings and the Lowry Theatre shining and bouncing off the water of the Quays.<br>
 - Black is used for the navbar and footer, giving the site pages a clear top and bottom/ start and end point.
 
 #### Typography
-- The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font used frequently so it is both attractive and fit for purpose.
+- The Roboto font is the main font used throughout the whole website with Sans Serif as the back-up font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font which is clear and easy to read used frequently so it is both attractive and fit for purpose.
 
 #### Imagery
--   The large, background hero image of a neon bar sign is designed to be striking and catch the user's attention. It also has a modern aesthetic and makes the context of the site clear straight away.
+-   The large, background hero image of a neon bar sign is striking and catch the user's attention, providing immediate impact. It also has a modern aesthetic and makes the context of the site clear straight away.
 
 
 * ### Wireframes
@@ -132,10 +132,6 @@ When I was creating my website, the design plan was changed. Having never done t
 - Balsamiq was used to create the wireframes as part of the design process.
 
 ## Testing
-- Tested with different browsers such as Chrome, Firefox, and Safari.
-- Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
-
-![Tested different screen sizes]SCREENSHOTS COMING SOON(./readme/test/testscreensize.png)
 
 - Tested navigation bar links. Home, Gallery, Contact and Menus pages jump to the respective places when clicked.
 
@@ -145,6 +141,15 @@ When I was creating my website, the design plan was changed. Having never done t
 
 - Tested the form on the Contact page. All required fields worked and the submission button worked.
 - Tested the subscription form. All required fields worked and the submission button worked.
+- Tested with different browsers such as Chrome, Firefox, and Safari.
+- Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
+    - - The site uses bootstrap across all pages to use a 1, 2, or 3 column layout. One column for small screen sizes, 2 columns for medium screen sizes and 3 columns for large screen sizes.<br>
+**Homepage**
+- [**Top Page View**](./docs/responsive-home-1.png)
+- [**Middle/Bottom Page View**](./docs/responsive-home-2.png)
+
+
+
 
 ### Validator Testing
 
