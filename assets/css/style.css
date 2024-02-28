@@ -1,4 +1,4 @@
-/* General Styles *********************************/
+/**************general styles ********************/
 body {
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
@@ -31,7 +31,7 @@ p {
 	color: #18273A;
 }
 
-/* Container Wrappers */
+/* container wrappers */
 .container-wrapper--light {
 	background-color: #9AB4D5;
 	color: #18273A;
@@ -80,7 +80,7 @@ p {
 	display: block;
 }
 
-/*block-divider*/
+/*block divider*/
 .block-divider {
 	width: 75px;
 	height: 5px;
@@ -88,7 +88,7 @@ p {
 	background-color: #ff3df9;
 }
 
-/* Navbar */
+/* navbar */
 .nav-container {
 	margin-bottom: 20px;
 }
@@ -138,7 +138,7 @@ p {
 	color: #9AB4D5;
 }
 
-/* Subscription */
+/* subscription */
 .container-subscribe {
 	margin: 0;
 	padding: 0;
@@ -162,7 +162,7 @@ p {
 	font-size: 1.2em;
 }
 
-/* Footer */
+/* footer */
 footer {
 	background-color: rgba(0, 0, 0);
 	padding: 20px 0;
@@ -194,8 +194,9 @@ footer {
 	color: #9AB4D5;
 }
 
-/* index.html **********************************************************/
+/**********************index.html *************************************/
 
+/*background images*/
 .name-tagline-container {
 	height: 100vh;
 	background: url('../images/bar-main.jpg') no-repeat center center fixed;
@@ -261,7 +262,7 @@ footer {
 	border-radius: inherit;
 }
 
-/* Gallery Page ****************************************************/
+/**********************Gallery Page********************************************/
 
 .carousel-container {
 	max-width: 100%;
@@ -311,7 +312,7 @@ footer {
 	}
 }
 
-/*contact Page****************************************************/
+/************************contact Page**************************/
 
 @media screen and (min-width: 768px) {
 	.contact-heading .col-lg-4 {
@@ -333,7 +334,7 @@ textarea.form-control {
 	resize: vertical;
 }
 
-/* Menus Page ***********************************************/
+/**********************menus page*************************/
 
 .menus-section {
 	background-color: #9AB4D5;
