@@ -145,6 +145,7 @@ p {
 	width: 100%;
 	background-color: #18273A;
 }
+
 /*form*/
 .center-form {
 	padding-top: 10px;
@@ -152,10 +153,11 @@ p {
 	max-width: 80%;
 }
 
-.form-label{
+.form-label {
 	text-align: left;
 }
-.btn-ft-brand{
+
+.btn-ft-brand {
 	display: block;
 	margin: 0 auto;
 	width: 200px;
