@@ -1,10 +1,10 @@
 <h1 align="center">Milestone 1 Project- Dock 9 Bar</h1>
 
-[View the live project here.](#)[Coming Soon]
+[View the live project here.](https://alexandrael9.github.io/MS1-dock9bar/index.html)
 
 This is step one of a promotional website for Dock 9, an existing bar and brewery acquired and under new management, which is part of an exciting regeneration project in Salford Quays. The company aims are to mix old school and traditional brewing techniques and craftsmanship with modern accents in a nod to the industrial past and modern present of the area. The area has a large residential population as well as a number of creative industries, a retail shopping outlet and cultural sites such as museums, art galleries and Old Trafford Football Staduim all within walking distance of eachother and accessible by the Metrolink Tram Network. As such, the company would like to not only attract new patrons, but also begin to build itself into the heart of the community, eventually becoming a community hub.<br> This project was completed for the Milestone 1 project in Level 5 Web Application and Development. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and returning patrons.
 
-<h2 align="center"><img src="#">Mock up images coming Soon!</h2>
+<h2 align="center"><img src"./docs/responsive-layout.png">Mock up images coming Soon!</h2>
 
 ## Planning
 
