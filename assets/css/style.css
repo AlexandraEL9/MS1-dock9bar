@@ -144,6 +144,22 @@ p {
 	width: 100%;
 	background-color: #18273A;
 }
+/*form*/
+.center-form {
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.form-label{
+	text-align: left;
+}
+.btn-ft-brand{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	font-size: 1.2em;
+}
 
 /* Footer */
 footer {
@@ -302,16 +318,6 @@ footer {
 		max-width: 33.33%;
 		margin: 0 auto;
 	}
-}
-
-.center-form {
-	padding-top: 10px;
-	margin: 0 auto;
-	max-width: 80%;
-}
-
-.center-form {
-	text-align: center;
 }
 
 .form-control {
