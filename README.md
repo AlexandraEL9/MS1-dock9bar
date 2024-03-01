@@ -136,6 +136,7 @@ When I was creating my website, the design plan was changed. Having never done t
 ### Navigation bar links. 
 Home, Gallery, Contact and Menus pages jump to the respective places when clicked. 
 - These were tested a number of times. An issue arose when the site moved from the local browswe to published throu Girhub Pages. When this happend the links stopped working and an 'Error 404' page was shown. This was rectified by editing the filepaths to remove "/" at the beginning.
+![Navbar Links](/docs/testing/navbar-links-matrix.png)
 
 ### Carousel Controls. 
 Tested gallery controls checking carousel only moves on as a result of user input.
@@ -154,9 +155,18 @@ Tested gallery controls checking carousel only moves on as a result of user inpu
 
 ![Footer Links Matrix](/docs/testing/footer-links-matrix.png)
 
+### Contact Page Form. 
 - Tested the form on the Contact page. All required fields worked and the submission button worked.
+![Contact Form Matrix](/docs/testing/contact-form-matrix.png)
+
+### Subscription Form. 
 - Tested the subscription form. All required fields worked and the submission button worked.
+![Subscription Form Matrix](/docs/testing/subscription-form-matrix.png)
+
+### Browser Testing.
 - Tested with different browsers such as Chrome, Firefox, and Safari.
+
+### Screensize and responsivity Testing.
 - Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
     - - The site uses bootstrap across all pages to use a 1, 2, or 3 column layout. One column for small screen sizes, 2 columns for medium screen sizes and 3 columns for large screen sizes.<br>
 
