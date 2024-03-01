@@ -42,7 +42,6 @@ People who live in the surrounding residential area, work in the area or are vis
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
   **Frequent User Goals**
-1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.
 2. As a Frequent User, I want to check to see if there are any new products or menu items.
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
@@ -51,7 +50,6 @@ People who live in the surrounding residential area, work in the area or are vis
 - The website uses responsive design so it can be seen on different devices easily.<br>
 - The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.<br>
 - The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.<br>
-- The site color scheme matches the design of the bar's upgrade and branding so users see the site as an extension of the bar and vice versa creating synergy and allowing the user to feel what the bar is/ may be like.<br>
 - The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
 - There is a contact form making interaction easy.<br>
 - There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
@@ -77,6 +75,8 @@ People who live in the surrounding residential area, work in the area or are vis
 
 #### Imagery
 -   The large, background hero image of a neon bar sign is striking and catch the user's attention, providing immediate impact. It also has a modern aesthetic and makes the context of the site clear straight away.
+- Each review has an image of the reviewer from their socila media adding trust that these are real reviews from real people.
+- A selection of appealing images were chosen for the menu cards showing delicious looking food that would be appealing to potential customers.
 
 
 * ### Wireframes
@@ -133,9 +133,17 @@ When I was creating my website, the design plan was changed. Having never done t
 
 ## Testing
 
-- Tested navigation bar links. Home, Gallery, Contact and Menus pages jump to the respective places when clicked.
+### Navigation bar links. 
+Home, Gallery, Contact and Menus pages jump to the respective places when clicked. 
+- These were tested a number of times. An issue arose when the site moved from the local browswe to published throu Girhub Pages. When this happend the links stopped working and an 'Error 404' page was shown. This was rectified by editing the filepaths to remove "/" at the beginning.
 
-- Tested gallery controls checking carousel only moves on as a result of user input.
+### Carousel Controls. 
+Tested gallery controls checking carousel only moves on as a result of user input.
+- The default of the Bootstrap carousel was that it would run automatically however I only wanted the image carousel to move as a result of user input. 
+![Bootstarp carousel default](./docs/testing/carousel-controls-1.png)
+- My first attempt was the change the 'data-ride="carousel"' to 'data-ride="none"'. However, this only changed the behaviour of the first slide, once past the first slide, the rest of the carousel ran automatically.
+- After a deep dive into Bootstrap's documentation I Added d'ata-interval="false"' to the carousel div to disable the automatic cycling through the slides. 
+![Bootstarp carousel fixed](./docs/testing/carousel-controls-2.png)
 
 - Tested all social media links in the footer to ensure they open in a new tab with the correct destination when clicked.
 
@@ -164,6 +172,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Chrome's DevTools Audit Report
 
 The Google Page-speed Services were used to assess the accessibiity of the project to ensure the site met expected accessible standards on desktop and mobile.
+
+- In early development of the site, the site used two shades of green as opposed to blue. Through testing while coding, it became apparent that these colours did not work well from an accessibility standpoint as there was not enouth contrast. As part of the iterative process, I changed my scheme from green to blues which offered better contrast and accessibility.
 
 ![Google Page-Speed Insights Desktop](/docs/testing/page-speed-desktop.png)
 ![Google Page-Speed Insights Mobile](/docs/testing/page-speed-mobile.png)
@@ -222,7 +232,7 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 
 ### Known Bugs/ issues
 
-- Performance needs to be enhanced, especially load time, and investigation work done around images slowing things down
+- Performance needs to be enhanced, especially load time, and investigation work done around images slowing things down.
 
 ### Improvements/ scalability 
 - Improve load performance.
