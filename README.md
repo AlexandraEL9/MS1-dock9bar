@@ -139,13 +139,17 @@ Home, Gallery, Contact and Menus pages jump to the respective places when clicke
 
 ### Carousel Controls. 
 Tested gallery controls checking carousel only moves on as a result of user input.
-- The default of the Bootstrap carousel was that it would run automatically however I only wanted the image carousel to move as a result of user input. 
-![Bootstarp carousel default](./docs/testing/carousel-controls-1.png)
+- The default of the Bootstrap carousel was that it would run automatically however I only wanted the image carousel to move as a lresult of user input. 
+ ![Bootstarp carousel default](./docs/testing/carousel-controls-1.png)
 - My first attempt was the change the 'data-ride="carousel"' to 'data-ride="none"'. However, this only changed the behaviour of the first slide, once past the first slide, the rest of the carousel ran automatically.
-- After a deep dive into Bootstrap's documentation I Added d'ata-interval="false"' to the carousel div to disable the automatic cycling through the slides. 
+- After a deep dive into Bootstrap's documentation I added data-interval="false"' to the carousel div to disable the automatic cycling through the slides. 
 ![Bootstarp carousel fixed](./docs/testing/carousel-controls-2.png)
 
-- Tested all social media links in the footer to ensure they open in a new tab with the correct destination when clicked.
+
+### Social media links open in the correct destination and in a new tab when clicked.
+![Footer links](./docs/testing/footer-links.png)
+- All linke include 'target="_blank"' to ensure links open in a new tab.
+![Footer Test Matrix](./docs/testing/footer-links-matrix.png)
 
 - Tested the form on the Contact page. All required fields worked and the submission button worked.
 - Tested the subscription form. All required fields worked and the submission button worked.
