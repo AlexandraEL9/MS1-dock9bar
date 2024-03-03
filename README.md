@@ -284,7 +284,14 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 **Performance**
 - Performance needs to be enhanced, especially load time, and investigation work done around images slowing page performance down without sacrificing image quality.
 
-**Performance**
+**Coding issues**
+- I came across an issue while building the site. This issue was made evident when viewing the menu page in smaller screens. Some horizontal sections of the page had white, empty space on the left hand side.
+- - In the first instance, I added "container-fluid" to the required sections. While this worked with the sections (the coloured background spread to fit the viewport), the section with the menu cards and images was still pushing out to the edges and creating white space. I looked deeper into the bootstrap code.
+![Bootstrap card default](./docs/testing/bootstrap-card-default.png)
+
+- - Firstly I removed any default dimensions and measurements relating to the card image so that I could control this in css. 
+![Menu Card HTML](./docs/testing/menu-card-html.png) ![Menu Card CSS](./docs/testing/menu-card-css.png) 
+
 
 ### Improvements/ scalability 
 - Improve load performance.
