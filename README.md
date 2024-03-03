@@ -51,8 +51,8 @@ People who live in the surrounding residential area, work in the area or are vis
 
 - The website will use responsive design so it can be seen on different devices easily.<br>
 - The site will have a navigation bar so movement from 1 page to another is simple. Similarly, the footer will have the bar's links to social media.<br>
-- The site's content will be structured so the most basic information is accessible first (who, what, where, when) with added details or information in more depth will be on subsequent pages.<br>
-- The site 's pages will nclude page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
+- The site's content will be structured so the most basic information is accessible first (who, what, where, when) with added details or information in more depth on subsequent pages.<br>
+- The site 's pages will include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
 - There will be a contact form making interaction easy.<br>
 - There will be downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
 - Each page could contain a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
@@ -68,15 +68,15 @@ People who live in the surrounding residential area, work in the area or are vis
 
 ![Colour scheme](./docs/colour-scheme.png)
 
-- The two shades of blue are a nod to traditional 'heritage' colours of old fashioned pubs, the navy blue especially referencing the nautical and industrial past of the area. A dark and light shade were chosed so they could be used to 'section off' parts of the webpage.<br>
-- The bright, neon pink is a quirky reference the the area's current iteration as a culture and media hub, referencing the neon lights of the BBC and ITV buildings and the Lowry Theatre shining and bouncing off the water of the Quays.<br>
+- The two shades of blue are a nod to traditional 'heritage' colours of old fashioned pubs, the navy blue especially referencing the nautical and industrial past of the area. A dark and light shade were chosen so they could be used to 'section off' parts of the webpage.<br>
+- The bright, neon pink is a quirky reference to the area's current iteration as a culture and media hub, referencing the neon lights of the BBC and ITV buildings and the Lowry Theatre shining and bouncing off the water of the Quays.<br>
 - Black is used for the navbar and footer, giving the site pages a clear top and bottom/ start and end point.
 
 #### Typography
-- The Roboto font is the main font used throughout the whole website with Sans Serif as the back-up font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font which is clear and easy to read used frequently so it is both attractive and fit for purpose.
+- The Roboto font is the main font used throughout the whole website, with Sans Serif as the back-up font in case Roboto isn't being imported into the site correctly. Roboto is a clean and simple font which is clear and easy to read and is used frequently so it is both attractive and fit for purpose.
 
 #### Imagery
--   The large, background hero image of a neon bar sign is striking and catch the user's attention, providing immediate impact. It also has a modern aesthetic and makes the context of the site clear straight away.
+-   The large, background hero image of a neon bar sign is striking and catches the user's attention, providing immediate impact. It also has a modern aesthetic and makes the context of the site clear straight away.
 - Each review has an image of the reviewer from their socila media adding trust that these are real reviews from real people.
 - A selection of appealing images were chosen for the menu cards showing delicious looking food that would be appealing to potential customers.
 
@@ -285,20 +285,23 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 - Performance needs to be enhanced, especially load time, and investigation work done around images slowing page performance down without sacrificing image quality.
 
 **Coding issues**
-- I came across an issue while building the site. This issue was made evident when viewing the menu page in smaller screens. Some horizontal sections of the page had white, empty space on the left hand side.
-- - In the first instance, I added "container-fluid" to the required sections. While this worked with the sections (the coloured background spread to fit the viewport), the section with the menu cards and images was still pushing out to the edges and creating white space. I looked deeper into the bootstrap code.
+- I came across an issue while building the site. This issue was made evident when viewing the menu page in smaller screens. Some horizontal sections of the page had white, empty space on the right hand side.
+- - In the first instance, I added "container-fluid" to the required sections. While this worked with some sections - the coloured background spread to fit the viewport - the section with the menu cards and images was still pushing out to the edges and creating white space. I looked deeper into the bootstrap code.
+
 ![Bootstrap card default](./docs/testing/bootstrap-card-default.png)
 
 - - Firstly I removed any default dimensions and measurements relating to the card image so that I could control this in css. 
 ![Menu Card HTML](./docs/testing/menu-card-html.png) ![Menu Card CSS](./docs/testing/menu-card-css.png) 
 
+- - I then used css to change the width to 100% so the image will not push out its container.
 
 ### Improvements/ scalability 
 - Improve load performance.
-- improve SEO score through addin a meta description tag.
+- improve SEO score through adding a meta description tag.
 - **Gallery Page** as image library grows, consider grouping images into albulms/ folders and adding search or filtering/ sorting functions.
 - **Menus Page** Add content for special/ seasonal menus to create buzz and excitement.
 - **Frequent Users** Reward frequent customers and visitors to the site with special offers accessed through the website.
+- **Response to Business need** As the info in the site is compartmentalised into pages, as the business grows, so too can the site. For example, an events page with a calendar could be added. A booking page linked to a back end system could be added also, or a page dedicated to education about the brewing process. Similarly, current pages could be adapted to growing need, for example, adapting the gallery page to have filters as the image gallery grows.
 
 ## Deployment
 
@@ -345,14 +348,39 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 - Google Map (Used a screenshot of Salford Quays with a pin drop and added to the home page 'General Info section )<br>
-- Images were sourced from [Unsplash](https://unsplash.com/)
 - [Canva](https://www.canva.com/templates/) was used to create the example menus using a template.
 - I utilised [Coolors](https://coolors.co/28262c-998fc7-d4c2fc-f9f5ff-14248a/) Palette Generator to create the color palette image in my README.md
+- Images were sourced from [Unsplash](https://unsplash.com/)
+
+| Image File Name      | Image Source|
+| ---------------------| ------------|
+|bar-taps.jpg          |https://unsplash.com/photos/blue-and-white-round-container-83HwuZirc-c|
+|bar-main.jpg          |https://unsplash.com/photos/photo-of-turn-on-white-bar-neon-sign-YGllNX_ol-A|
+|group-cheers.jpg      |https://unsplash.com/photos/people-holding-drinks-during-day-0yqa0rMCsYk|
+|beer-flight.jpg       |https://unsplash.com/photos/clear-drinking-glasses-on-brown-wooden-table-OGTEP0LyYNk|
+|goodtimes.jpg         |https://unsplash.com/photos/selective-focus-photography-of-pink-good-times-neon-light-signage-nQl9tHiMSww|
+|guy-drinking.jpg      |https://unsplash.com/photos/man-drinking-beer-on-selective-focus-photography-DIwADVevISg|
+|no-photos.jpg         |https://unsplash.com/es/fotos/hombre-con-chaqueta-azul-de-pie-en-la-puerta-77ugJW-GtyA|
+|roast-dinner.jpg      |https://unsplash.com/photos/cooked-meat-on-white-ceramic-plate-kFJ8tL53qcg|
+|brunch.jpg            |https://unsplash.com/photos/hamburger-fried-eggs-avocado-slices-and-bread-on-round-gray-plate-mEDCaC8qfxU|
+|nachos.jpg            |https://unsplash.com/photos/taco-on-plate-aZOqcEK2KuQ|
+|jane-potter.jpg       |https://unsplash.com/photos/woman-in-pink-blazer-smiling-7JmGPyljOSE|
+|tania-burrows.jpg     |https://unsplash.com/photos/closeup-photography-of-woman-smiling-mEZ3PoFGs_k|
+|jon-donnelly.jpg      |https://unsplash.com/photos/man-in-blue-button-up-shirt-C2Nf5iPOnz0|
+|jayne-ike-chidebe.jpg |https://unsplash.com/photos/women-holding-her-collar-standing-near-wall-J1OScm_uHUQ|
+|johnny-chambers.jpg   |https://unsplash.com/photos/man-standing-near-white-wall-d1UPkiFd04A|
+|robert-downey.jpg     |https://unsplash.com/photos/man-in-black-crew-neck-shirt-wearing-black-knit-cap-vXgV5XUlTog|
+|map.jpg               | screenshot taken from https://www.google.com/maps/@53.4709467,-2.29653,17z?entry=ttu|
+
+
+
+
+
+
+
 
 ### Acknowledgements
 
 -   My Mentor Excellence Ilesanmi for continuous helpful feedback.
 -   My tutor from EKC Group Rachel Furlong for support in Tutor meetings.
 -   The Code Institute Slack Channel.
-
-[def]: /docs/testing/subscription-form-matrix.png
