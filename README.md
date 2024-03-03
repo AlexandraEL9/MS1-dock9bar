@@ -42,18 +42,20 @@ People who live in the surrounding residential area, work in the area or are vis
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media. 
 
   **Frequent User Goals**
-2. As a Frequent User, I want to check to see if there are any new products or menu items.
-3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
-**Features To Achieve These Goals**
+1. As a Frequent User, I want to check to see if there are any new products or menu items.
+2. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.
 
-- The website uses responsive design so it can be seen on different devices easily.<br>
-- The site has a navigation bar so movement from 1 page to another is simple. Similarly, the footer has links to social media.<br>
-- The site is set up so the most basic information is accessible first (who, what, where, when) with added details on subsequent pages.<br>
-- The site pages include page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
-- There is a contact form making interaction easy.<br>
-- There are downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
-- Each page has a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
+
+**Planned Features To Achieve These Goals**
+
+- The website will use responsive design so it can be seen on different devices easily.<br>
+- The site will have a navigation bar so movement from 1 page to another is simple. Similarly, the footer will have the bar's links to social media.<br>
+- The site's content will be structured so the most basic information is accessible first (who, what, where, when) with added details or information in more depth will be on subsequent pages.<br>
+- The site 's pages will nclude page specific reviews, linked to the page content so users can see positive reviews of the section they are currently reading.<br>
+- There will be a contact form making interaction easy.<br>
+- There will be downloadable menus with prices so patrons can look and check at their leisure, prior to visit.<br>
+- Each page could contain a subscribe to the newsletter section, encouraging patrons to keep in touch with the bar.<br>
 
  ### Design
 
@@ -159,20 +161,23 @@ Tested gallery controls checking carousel only moves on as a result of user inpu
 - Tested the form on the Contact page. All required fields worked and the submission button worked.
 ![Contact Form Matrix](/docs/testing/contact-form-matrix.png)
 
-### Subscription Form. 
-- Tested the subscription form. All required fields worked and the submission button worked.
-![Subscription Form Matrix](/docs/testing/subscription-form-matrix.png)
+### Subscription Form.
+- Tested the form on the Contact page. All required fields worked and the submission button worked.
+![Subscription Form Matrix](/docs/testing/subscription-form-matrix.png) 
+
 
 ### Browser Testing.
-- Tested with different browsers such as Chrome, Firefox, and Safari.
+- Tested with different browsers such as Chrome, Firefox, and Safari(using my phone).
 
 ### Screensize and responsivity Testing.
 - Tested with different screen sizes using the developer tool (Galaxy Fold, iPad, and my laptop)
     - - The site uses bootstrap across all pages to use a 1, 2, or 3 column layout. One column for small screen sizes, 2 columns for medium screen sizes and 3 columns for large screen sizes.<br>
 
 **Homepage examples**
-- [**Top Page View**](./docs/responsive-homepage-1.png)
-- [**Middle/Bottom Page View**](./docs/responsive-homepage-2.png)
+![Responsive homepage](./docs/responsive-homepage-2.png)
+**Navbar examples**
+![Responsive navbar](./docs/responsive-navbar.png)
+![Responsive navbar](./docs/responsive-navbar-lg.png)
 
 ### Validator Testing
 
@@ -312,3 +317,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor Excellence Ilesanmi for continuous helpful feedback.
 -   My tutor from EKC Group Rachel Furlong for support in Tutor meetings.
 -   The Code Institute Slack Channel.
+
+[def]: /docs/testing/subscription-form-matrix.png
