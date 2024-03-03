@@ -228,7 +228,9 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 - #### First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the bar, its location and ethos.<br>
 **1a.** Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text making the site's content and purpose clear.<br>
+![User Stories Homepage Top](./docs/testing/user-stories/user-stories-homepage-top.png)
 - The main basic information is put across first (who,what,where,when)<br>
+![User Stories Homepage Middle](./docs/testing/user-stories/user-stories-homepage-middle.png)
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.<br>
 **2a** The user has options, use the navigation bar to enter specific site pages scroll down to read more generic info about the bar, subscribe to recieve newsletters or finally,to view the bar's social media through the links in the footer.
