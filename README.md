@@ -232,21 +232,34 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 - The main basic information is put across first (who,what,where,when)<br>
 ![User Stories Homepage Middle](./docs/testing/user-stories/user-stories-homepage-middle.png)
 
+
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find key information about the bar.<br>
 **2a** The user has options, use the navigation bar to enter specific site pages scroll down to read more generic info about the bar, subscribe to recieve newsletters or finally,to view the bar's social media through the links in the footer.
 
 3. As a First Time Visitor, I want to be able to look at images and menus to help me decide if this is a place I would want to visit.<br>
 **3a** The site has 2 pages dedicated to this information accessed from the navbar. Page content specific reviews are on each page so patrons see a relevent review to the content they are reading about.
 
+![User Stories Homepage Top](./docs/testing/user-stories/user-stories-gallery.png) ![User Stories Homepage Top](./docs/testing/user-stories/user-stories-menus.png)
+![User Stories Homepage Top](./docs/testing/user-stories/user-stories-reviews.png)
+
 4. As a First Time Visitor, I want to be able to locate linked social media to find more information from other sources, for example, reviews and comments of customers.<br>
 **4a** The site includes a footer on every page with links to relevent social media.
+
+![User Stories Navbar](./docs/testing/user-stories/user-stories-navbar.png) 
+![User Stories Footer](./docs/testing/user-stories/user-stories-footer.png)
 
 - #### Returning Visitor Goals
 1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have about events or to make bookings.<br>
 **1a** The website has a Contact Us page easily accessible from the navbar.
+![User Stories contact Page](./docs/testing/user-stories/user-stories-contact.png)
+
 
 2. As a Returning Visitor, I want to find prices for menu items and view the menu before my visit or direct this information to my friends.<br>
-**2a** From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the current menus with prices.
+**2a** From the navbar and so from any page, customers can view a dedicated Menus page with buttons to access copies of the current menus with prices. All menus open in a new tab.
+
+![User Stories Menus Page](./docs/testing/user-stories/user-stories-menus-page.png)
+![User Stories Example Menu](./docs/testing/user-stories/user-stories-menu-example.png)
+
 
 3. As a Returning Visitor, I want to locate their social media links to join their followings on social media.<br>
 **3a** The site includes a footer on every page with links to relevent social media. 
