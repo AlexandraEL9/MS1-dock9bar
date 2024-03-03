@@ -174,10 +174,20 @@ Tested gallery controls checking carousel only moves on as a result of user inpu
     - - The site uses bootstrap across all pages to use a 1, 2, or 3 column layout. One column for small screen sizes, 2 columns for medium screen sizes and 3 columns for large screen sizes.<br>
 
 **Homepage examples**
+
 ![Responsive homepage](./docs/responsive-homepage-2.png)
+
 **Navbar examples**
-![Responsive navbar](./docs/responsive-navbar.png)
-![Responsive navbar](./docs/responsive-navbar-lg.png)
+- The site utilises a bootstrap component to collapse the navbar menu items into a toggle when viewing the site on small screens to keep the page neat and tidy.
+
+![Responsive navbar](./docs/testing/responsive-navbar.png)
+![Responsive navbar](./docs/testing/responsive-navbar-lg.png)
+
+**Form examples**
+- The site utilises media queries to organise form elements on the page in order ro manage space and content effectively. While the site as a whole uses a 3-2-1 bootstrap column design, I found that while this worked on small screens, it was not effective on medium to large screens as the half header half form weighting was not an effective use of space. After some reading I decided to add a media query to both the contact form and the subscription form. This media query and html changed the page make-up so that the header took up one third of the horixontal space while the form element took up two thirds. I also centered the header vertically to even out the use of space.
+
+![Form Media Query small screens](./docs/testing/responsive-form-sml.png)
+![Form Media Query meduim and large screens](./docs/testing/responsive-form-md-lg.png)
 
 ### Validator Testing
 
