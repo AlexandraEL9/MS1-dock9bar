@@ -265,21 +265,26 @@ Lighthouse was used to assess the accessibiity of the project to ensure the site
 **3a** The site includes a footer on every page with links to relevent social media. 
 
 - #### Frequent User Goals
-1. As a Frequent User, I want to check to see if there are any newly added images added to the gallery from an event I attended.<br>
+1. As a Frequent User, I want to look at gallery images.<br>
 **1a** Currently, there is a dedicated gallery page with a carousel of images. This could be adapted as the site builds to become filterable by newest/oldest or by night/event.
-2. As a Frequent User, I want to check to see if there are any new products or menu items.<br>
+2. As a Frequent User, I want to check to see be able to refer to menu items.<br>
 **2a** The dedicated menu page has up to date menus. This page could be enhanced with a "Coming Soon!" section for new/ seasonal menus. Customers can also choose to be kept up to date via the newsletter subscription.
 
 3. As a Frequent User, I want to be able to sign up to updates about what is going on at the bar and be the first to know about any promotional offers.<br>
 **3a** As per the wishes of the company to have a way to reach out to their customers, each page includes a form through which customers can sign up to a newsletter subscription.
+
+![User Stories Newsletter Signup](./docs/testing/user-stories/user-stories-newsletter-signup.png)
+
 
 ### Further Testing
 -   A large amount of repeated testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs/ issues
+**Performance**
+- Performance needs to be enhanced, especially load time, and investigation work done around images slowing page performance down without sacrificing image quality.
 
-- Performance needs to be enhanced, especially load time, and investigation work done around images slowing things down.
+**Performance**
 
 ### Improvements/ scalability 
 - Improve load performance.
