@@ -195,7 +195,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 **HTML**
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-html-validator.png)
+-   [W3C Markup Validator index.html](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-index.html-validator.png)
+- - There were some 'Warnings' to do with header elements however these warnings do not take into account that the header for the content is in the previous section and the 'possible' misuse of an aria-label on my map. As these are warnings and not errors I ignored them.<br>
+
+
+-   [W3C Markup Validator gallery.html](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-gallery.html-validator.png)
+
+-   [W3C Markup Validator contact.html](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-contact.html-validator.png)
+- - There was an issue with duplicate tags as this page had two forms on - one for contact and one for subscription- I edited the id's and labels to section specific ones. This fixed the issue.
+
+-   [W3C Markup Validator menus.html](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-menus.html-validator.png)
+- - There was an issue with duplicate and stray div tags. Quick format and check and removed eroneous tag.
 
 **CSS**
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/docs/testing/w3c-css-validator-1.png)
